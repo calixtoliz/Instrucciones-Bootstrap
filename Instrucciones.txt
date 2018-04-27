@@ -60,8 +60,23 @@ Bases de Bootstrap - Repaso
             El alto de esa fila debe de ser de 60px
 
 2.- Estructuras básicas responsivas
-    En esta seccion trabajaremos con 3 breakpoints: col-lg, col-md y col-
+    En esta seccion trabajaremos con 3 breakpoints: col-lg, col-sm y col-
     2a.- Crear un archivo 2a.html. Cotendrá una fila que contenga:
         -Una columna que cuando sea grande y mediana abarque 6 columnas. Cuando sea pequeña que abarque 12.
         Color que deseen. Alto 200px;
+    2b- Crear un archivo 2b.html. Contendrá 2 filas:
+        -La primer fila tendrá 2 columnas:
+            -La primer columna que cuando sea grande y mediana abarque la mitad de la fila
+            -La primer columna que cuando sea pequeña abarque toda la fila
+            -La segunda columna siempre abarque toda la fila 
+        -La segunda fila contendrá 3 columnas:
+            -La primer columna cuando sea grande y pequeña abarque la mitad de la fila. 
+            -La prumer columna Cuando sea mediana abarque toda la fila
+            -La segunda y tercer columna abarquen 6/12 cuando sean grandes y medianas, 8/12 cuando sea pequeño
+    2c- Crear un archivo 2c.html. Contendrá una fila que contenga:
+        -Una columna color verde de 200px de alto que:
+            Cuando sea grande, abarque la mitad y este a la derecha
+            Cuando sea mediano abarque 8/12 y esté a la derecha
+            Cuando sea pequeño abarque toda la fila
+      
 3.-Modificación de bootstrap sin alterar las clases
