@@ -1,0 +1,67 @@
+#NOTAS:
+    -Nunca editar las clases propias de boootstrap
+    -Estructura básica de bootstrap:
+        <div class="container">
+            <div class="row">
+                <div class="col-XX-12">
+                </div>
+            </div>
+        </div>
+
+Bases de Bootstrap - Repaso
+1.- Estructuras básicas no responsivas
+    1a- Crear carpeta ExamenBootstrap que contenga las carpetas
+        -html
+        -css
+        -img
+        -js
+    1b- Pasar archivos de bootstrap a su carpeta ExamenBootstrap
+    1c- Crear un archivo 1c.html. En este archivo ligas bootstrap de manera local
+    1d- Crear un archivo 1d.html. En este archivo ligas bootstrap de manera remota
+    
+    #nota: a partir de aquí crearán una hoja de estilo (css) propia donde editarán los atributos de sus ejercicios posteriores.
+
+    1e- Crear un archivo 1e.html. En este archivo crearas una fila que contenga 2 columnas. Estas columnas ocuparán el 50% cada una
+        y tendrán un color rojo y verde cada una
+    1f- Crear un archivo 1f.html. En este archivo crearas una fila con tres columnas:
+        -La primer columna ocupará 1/3 de la fila
+        -La segunda columna ocupará 2/6 de la fila
+        -La tercer columna ocupará 2/6 de la fila
+    1g- Crear un arcgivo 1g.html. En este archivo, crearás una fila que contenga:
+        -1 columna que mida 50% de la fila. Debe estar posicionada en el medio de la fila. color que quieras
+        -la columna mida de alto 200px
+    1h- Crear un arcgivo 1h.html. En este archivo, crearás una fila que contenga:
+        -1 columna que mida 50% de la fila. Debe estar posicionada al final de la fila. color que quieras
+        -la columna mida de alto 200px
+    1i- Crear un archivo 1i.html. En este archivo crearás una fila que contenga:
+        -1 columna que mida 50% que contenga:
+            -1fila que contenga:  
+                1 columna de 50% color rojo
+                1 columna de 50% color verde
+        -1 columna que mida 50% que contenga:
+            -1 fila que contenga:
+                1 columna que mida 1/3 color azul
+                1 columna que mida 2/3 color negro
+    1j- Crear un archivo 1j.html. En este archivo crearás:
+        -1 fila que tenga 300px de alto que contenga:
+            -1 columna que mida 3/12 y esté posicionada a la derecha de la fila. color verde.
+        -1 fila que tenga 200px de alto. Color gris        
+    1k- Crear un archivo 1k. En este archivo crearás un contenedor (el de siempre...) que no tenga fila.
+        Dentro de ese contenedor pondrás:
+            1 columna de 6/12 color verde 200px de alto
+            1 columna de 6/12 color azul de 200px de alto
+        ¿Que diferencia hay al no ponerle una fila padre?
+    
+    Final seccion 1:
+        Crea un archivo 1final.html que contenga
+            Un contenedor fluido (container-fluid)
+            Tomarás de referencia la barra de comex.com.mx 
+            Separar por columnas los elementos de la barra de comex.
+            El alto de esa fila debe de ser de 60px
+
+2.- Estructuras básicas responsivas
+    En esta seccion trabajaremos con 3 breakpoints: col-lg, col-md y col-
+    2a.- Crear un archivo 2a.html. Cotendrá una fila que contenga:
+        -Una columna que cuando sea grande y mediana abarque 6 columnas. Cuando sea pequeña que abarque 12.
+        Color que deseen. Alto 200px;
+3.-Modificación de bootstrap sin alterar las clases
